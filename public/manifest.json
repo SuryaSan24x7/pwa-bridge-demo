@@ -1,0 +1,62 @@
+{
+  "name": "INR-T Faucet & Bridge",
+  "short_name": "INR-T Bridge",
+  "description": "Cross-chain faucet and bridge demo for INR-T token using Layer Zero",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#1a0033",
+  "background_color": "#1a0033",
+  "screenshots": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["finance", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Faucet",
+      "short_name": "Faucet",
+      "description": "Claim free INR-T tokens",
+      "url": "/?tab=faucet",
+      "icons": [
+        {
+          "src": "/icon.svg",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Bridge",
+      "short_name": "Bridge",
+      "description": "Bridge INR-T between chains",
+      "url": "/?tab=bridge",
+      "icons": [
+        {
+          "src": "/icon.svg",
+          "sizes": "192x192",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}
